@@ -7,7 +7,11 @@ private:
 string model;
 int temperatura;
 public:
-
+sporet konstruktor(string ime)
+{
+    model=ime;
+    temperatura=0;
+}
 };
 class firma
 {
@@ -43,19 +47,29 @@ public:
 };
 class sastojak
 {
-private:
+public:
+    ///treba da je objekat
 string naziv;
 int kolicina,energetskavrednost;
-public:
-
+    ///
+private:
+    sastojak konstruktor(string ime;int kol;int energ)
+    {
+        sastojak ime;
+        sastojak ime.kolicina=kol;
+        sastojak ime.energetskavrednost=energ;
+    }
 };
-class jelo
+class jelo: public sastojak
 {
 private:
 string ime;
 sastojak a[];
 public:
-
+jelo konstroktor(string naziv)
+{
+    ime=naziv;
+}
 };
 class kuvar
 {
