@@ -1,7 +1,18 @@
 #include <iostream>
+#include "Sporet.h"
+#include "Firma.h"
+#include "Rerna.h"
+#include "Sto.h"
+#include "Posuda.h"
+#include "Sastojak.h"
+#include "Jelo.h"
+#include "Kuvar.h"
+#include "Obrok.h"
+#include "Pice.h"
+
 ///Sporet, Firma, Rerna, Sto, Posuda, Sastojak, Jelo, Kuvar, Obrok, Pice
 using namespace std;
-class sporet
+/*class Sporet
 {
 private:
 string model;
@@ -13,7 +24,7 @@ sporet konstruktor(string ime)
     temperatura=0;
 }
 };
-class firma
+class Firma
 {
 private:
 string ime,zemljaporekla;
@@ -21,14 +32,14 @@ int kvalitet;///  1-10
 public:
 
 };
-class rerna
+class Rerna
 {
 private:
 int temperatura,vreme,brojposuda;
 public:
 
 };
-class sto
+class Sto
 {
 private:
 bool postavljen,cist;
@@ -37,7 +48,7 @@ int brojosoba;
 public:
 
 };
-class posuda
+class Posuda
 {
 private:
 firma kvalitet;
@@ -45,7 +56,7 @@ string naziv,upotreba;
 public:
 
 };
-class sastojak
+class Sastojak
 {
 public:
     ///treba da je objekat
@@ -60,7 +71,7 @@ private:
         sastojak ime.energetskavrednost=energ;
     }
 };
-class jelo: public sastojak
+class Jelo: public Sastojak
 {
 private:
 string ime;
@@ -71,7 +82,7 @@ jelo konstroktor(string naziv)
     ime=naziv;
 }
 };
-class kuvar
+class Kuvar
 {
 private:
 string poreklo,kuhinja;
@@ -79,7 +90,7 @@ int rejting;///   1-10
 public:
 
 };
-class pice
+class Pice
 {
 private:
 string ime;
@@ -88,6 +99,14 @@ bool domace;
 public:
 
 };
+class Obrok
+{
+private:
+    string ime;
+    ///ostatak iz jela i pica
+public:
+
+};*/
 int main()
 {
     cout << "Hello world!" << endl;

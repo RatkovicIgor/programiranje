@@ -32,6 +32,26 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Firma.cpp" />
+		<Unit filename="Firma.h" />
+		<Unit filename="Jelo.cpp" />
+		<Unit filename="Jelo.h" />
+		<Unit filename="Kuvar.cpp" />
+		<Unit filename="Kuvar.h" />
+		<Unit filename="Obrok.cpp" />
+		<Unit filename="Obrok.h" />
+		<Unit filename="Pice.cpp" />
+		<Unit filename="Pice.h" />
+		<Unit filename="Posuda.cpp" />
+		<Unit filename="Posuda.h" />
+		<Unit filename="Rerna.cpp" />
+		<Unit filename="Rerna.h" />
+		<Unit filename="Sastojak.cpp" />
+		<Unit filename="Sastojak.h" />
+		<Unit filename="Sporet.cpp" />
+		<Unit filename="Sporet.h" />
+		<Unit filename="Sto.cpp" />
+		<Unit filename="Sto.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
