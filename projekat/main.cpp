@@ -9,7 +9,7 @@
 #include "Kuvar.h"
 #include "Obrok.h"
 #include "Pice.h"
-
+/// funkcionalnosti su detaljnije opisane u .h fajlovima
 ///Sporet, Firma, Rerna, Sto, Posuda, Sastojak, Jelo, Kuvar, Obrok, Pice
 using namespace std;
 
