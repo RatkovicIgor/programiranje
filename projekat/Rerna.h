@@ -5,8 +5,14 @@
 class Rerna
 {
 private:
-int temperatura,vreme,brojposuda;
+    int temperatura,vreme,brojposuda;
 public:
+    Rerna konstruktor(int temp,int vrem,int bp)
+    {
+        temperatura=temp;
+        vreme=vrem;
+        brojposuda=bp;
+    }
 
 };
 

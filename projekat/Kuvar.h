@@ -5,10 +5,16 @@
 class Kuvar
 {
 private:
-string poreklo,kuhinja;
-int rejting;///   1-10
+    string poreklo,kuhinja,ime;
+    int rejting;///   1-10
 public:
-
+    Kuvar konstruktor(string naziv,string por,string kuh,int rej)
+    {
+        ime=naziv;
+        poreklo=por;
+        kuhinja=kuh;
+        rejting=rej;
+    }
 };
-
+/// rejting zavisi od kvaliteta u firmi (u planu)
 #endif // KUVAR_H

@@ -5,11 +5,16 @@
 class Pice
 {
 private:
-string ime;
-double procenatalkohola;
-bool domace;
+    string ime;
+    double procenatalkohola;
+    bool domace;
 public:
-
+    Pice konstruktor(string naziv,double vol,bool d)
+    {
+        ime=naziv;
+        procenatalkohola=vol;
+        domace=d;
+    }
 };
 
 #endif // PICE_H
