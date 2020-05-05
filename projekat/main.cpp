@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 #include "Sporet.h"
 #include "Firma.h"
 #include "Rerna.h"
@@ -11,7 +12,7 @@
 #include "Pice.h"
 /// funkcionalnosti su detaljnije opisane u .h fajlovima
 ///Sporet, Firma, Rerna, Sto, Posuda, Sastojak, Jelo, Kuvar, Obrok, Pice
-using namespace std;
+
 
 int main()
 {
@@ -27,5 +28,9 @@ int main()
     Sporet sporet1;
     Sto sto1;
 
+    Pice::konstruktor(Sokodnarandze; 0; 1);
+    Pice::citajkatalog();
+
     return 0;
 }
+/// rad sa fajlovima u Pice.h

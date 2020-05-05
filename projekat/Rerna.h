@@ -1,6 +1,7 @@
 #ifndef RERNA_H
 #define RERNA_H
-
+#include <iostream>
+using namespace std;
 
 class Rerna
 {
@@ -54,9 +55,9 @@ public:
     }
     Rerna ubaciposudu()
     {
-        if(0<posuda<4)
+        if(0<brojposuda<4)
         {
-                    Posuda++;
+                    brojposuda++;
                     cout<<"ubacili ste posudu"<<endl;
         }
         else
@@ -64,9 +65,9 @@ public:
     }
     Rerna izvadiposudu()
     {
-        if(0<posuda<4)
+        if(0<brojposuda<4)
         {
-                    Posuda--;
+                    brojposuda--;
                     cout<<"izvadili ste posudu"<<endl;
         }
         else

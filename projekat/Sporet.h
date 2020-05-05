@@ -1,6 +1,7 @@
-#ifndef SPORET_H
-#define SPORET_H
-
+#ifndef Sporet_H
+#define Sporet_H
+#include <iostream>
+using namespace std;
 
 class Sporet
 {
@@ -9,44 +10,44 @@ private:
     int temperatura;
     bool upaljen;
 public:
-    sporet konstruktor(string ime)
+    Sporet konstruktor(string ime)
     {
         model=ime;
         temperatura=21;
         upaljen=false;
     }
-    sporet upali()
+    Sporet upali()
     {
         if(upaljen==false)
         {
             upaljen=true;
-            cout<<"sporet je upaljen"<<endl;
+            cout<<"Sporet je upaljen"<<endl;
         }
         else
         {
-            cout<<"sporet je vec upaljen"<<endl;
+            cout<<"Sporet je vec upaljen"<<endl;
         }
     }
-    sporet promenitemperaturu(int novatemp)
+    Sporet promenitemperaturu(int novatemp)
     {
         if(upaljen==true)
         {
             temperatura=novatemp;
         }
         else
-            cout<<"sporet nije upaljen"<<endl;
+            cout<<"Sporet nije upaljen"<<endl;
     }
-    sporet ugasi()
+    Sporet ugasi()
     {
         if(upaljen==true)
         {
             upaljen=false;
             temperatura=21;
-            cout<<"sporet je ugasen"<<endl;
+            cout<<"Sporet je ugasen"<<endl;
         }
         else
-            cout<<"sporet je vec ugasen"<<endl;
+            cout<<"Sporet je vec ugasen"<<endl;
     }
 };
-/// klasa jelo treva da zavisi od temperature sporeta (u planu)
-#endif // SPORET_H
+/// klasa jelo treva da zavisi od temperature Sporeta (u planu)
+#endif // Sporet_H

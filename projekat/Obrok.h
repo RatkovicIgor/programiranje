@@ -1,6 +1,7 @@
 #ifndef OBROK_H
 #define OBROK_H
-
+#include <iostream>
+using namespace std;
 
 class Obrok
 {

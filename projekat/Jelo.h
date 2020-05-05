@@ -1,18 +1,20 @@
-#ifndef JELO_H
-#define JELO_H
-
-
-class Jelo: public Sastojak
+#ifndef Jelo_H
+#define Jelo_H
+#include <iostream>
+using namespace std;
+/*
+class Jelo
 {
 private:
     string ime;
-    string a[];
+    string a[3];
 public:
-    jelo konstroktor(string naziv,string s1,string s2,string s3)
+    Jelo konstroktor(string naziv,string s1,string s2,string s3): public Sastojak
     {
         ime=naziv;
-        a= {s1,s2,s3}
+        a= {s1,s2,s3};
     }
 };
+*/
 /// od sastojaka treba da zavisi kavlitet jela (bool) (u planu)
-#endif // JELO_H
+#endif // Jelo_H

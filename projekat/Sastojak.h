@@ -1,6 +1,7 @@
 #ifndef SASTOJAK_H
 #define SASTOJAK_H
-
+#include <iostream>
+using namespace std;
 
 class Sastojak
 {
@@ -8,7 +9,7 @@ public:
     string naziv;
     int kolicina,energetskavrednost;
 private:
-    sastojak konstruktor(string ime; int kol; int energ)
+    Sastojak konstruktor(string ime, int kol, int energ)
     {
         naziv=ime;
         kolicina=kol;

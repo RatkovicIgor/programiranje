@@ -1,6 +1,7 @@
 #ifndef STO_H
 #define STO_H
-
+#include <iostream>
+using namespace std;
 
 class Sto
 {
@@ -14,7 +15,7 @@ public:
         postavljen=false;
         cist=true;
         materijal=a;
-        brojosoba=b
+        brojosoba=b;
     }
     Sto postavi()
     {

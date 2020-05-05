@@ -1,6 +1,7 @@
 #ifndef KUVAR_H
 #define KUVAR_H
-
+#include <iostream>
+using namespace std;
 
 class Kuvar
 {

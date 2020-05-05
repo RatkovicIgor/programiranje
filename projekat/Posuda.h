@@ -1,6 +1,7 @@
 #ifndef POSUDA_H
 #define POSUDA_H
-
+#include <iostream>
+using namespace std;
 
 class Posuda
 {
