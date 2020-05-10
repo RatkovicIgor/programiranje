@@ -9,7 +9,7 @@ private:
     int temperatura,vreme,brojposuda;
     bool upaljen;
 public:
-    Rerna konstruktor()
+    Rerna()
     {
         temperatura=21;
         vreme=0;

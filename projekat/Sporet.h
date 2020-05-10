@@ -10,7 +10,7 @@ private:
     int temperatura;
     bool upaljen;
 public:
-    Sporet konstruktor(string ime)
+    Sporet(string ime)
     {
         model=ime;
         temperatura=21;

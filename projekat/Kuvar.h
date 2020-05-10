@@ -6,16 +6,43 @@ using namespace std;
 class Kuvar
 {
 private:
-    string poreklo,kuhinja,ime;
+    string kuhinja;
     int rejting;///   1-10
+    string ime;
+    static int brojredovnihgostiju;
 public:
-    Kuvar konstruktor(string naziv,string por,string kuh,int rej)
+    Kuvar(string kuhinja,int rejting,string ime)
     {
-        ime=naziv;
-        poreklo=por;
-        kuhinja=kuh;
-        rejting=rej;
+        kuhinja=kuhinja;
+        rejting=rejting;
+        ime=ime;
+    }
+    Kuvar povecajrejting(int rejting)
+    {
+        if(rejting<10)
+        {
+            rejting++;
+        }
+        else
+        {
+            cout<<"rejting je vec 10"<<endl;
+        }
+    }
+    Kuvar smanjirejting(int rejting)
+    {
+        if(rejting>0)
+        {
+            rejting--;
+        }
+        else
+        {
+            cout<<"rejting je vec 0"<<endl;
+        }
+    }
+    Kuvar ispisipodatke(string ime, string kuhinja,int rejting,int brojredovnihgostiju)
+    {
+        cout<<ime<<", "<<kuhinja<<", "<<rejting<<"/10, "<<brojredovnihgostiju<<" redovnih gostiju."<<endl;
     }
 };
-/// rejting zavisi od kvaliteta u firmi (u planu)
+int Kuvar::brojredovnihgostiju=27;
 #endif // KUVAR_H

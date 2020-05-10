@@ -5,14 +5,13 @@ using namespace std;
 
 class Sastojak
 {
-public:
-    string naziv;
-    int kolicina,energetskavrednost;
 private:
-    Sastojak konstruktor(string ime, int kol, int energ)
+    string naziv;
+    int energetskavrednost;
+public:
+    Sastojak(string ime, int energ)
     {
         naziv=ime;
-        kolicina=kol;
         energetskavrednost=energ;
     }
 

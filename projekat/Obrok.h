@@ -9,7 +9,7 @@ private:
     string ime;
     ///ostatak iz jela i pica
 public:
-    Obrok konstruktor(string naziv)
+    Obrok(string naziv)
     {
         ime=naziv;
     }

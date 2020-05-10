@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1589152879 source:c:\users\ratkovic09\documents\github\programiranje\projekat\main.cpp
+	<iostream>
+	"Sporet.h"
+	"Firma.h"
+	"Rerna.h"
+	"Sto.h"
+	"Posuda.h"
+	"Sastojak.h"
+	"Jelo.h"
+	"Kuvar.h"
+	"Obrok.h"
+	"Pice.h"
+
+1589024522 c:\users\ratkovic09\documents\github\programiranje\projekat\sporet.h
+	<iostream>
+
+1589152541 c:\users\ratkovic09\documents\github\programiranje\projekat\firma.h
+	<iostream>
+
+1589024522 c:\users\ratkovic09\documents\github\programiranje\projekat\rerna.h
+	<iostream>
+
+1589026984 c:\users\ratkovic09\documents\github\programiranje\projekat\sto.h
+	<iostream>
+
+1589024522 c:\users\ratkovic09\documents\github\programiranje\projekat\posuda.h
+	<iostream>
+
+1589151867 c:\users\ratkovic09\documents\github\programiranje\projekat\sastojak.h
+	<iostream>
+
+1589151790 c:\users\ratkovic09\documents\github\programiranje\projekat\jelo.h
+	<iostream>
+
+1589152600 c:\users\ratkovic09\documents\github\programiranje\projekat\kuvar.h
+	<iostream>
+
+1589024522 c:\users\ratkovic09\documents\github\programiranje\projekat\obrok.h
+	<iostream>
+
+1589153162 c:\users\ratkovic09\documents\github\programiranje\projekat\pice.h
+	<iostream>
+	<fstream>
+

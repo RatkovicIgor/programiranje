@@ -10,7 +10,7 @@ private:
     string materijal;
     int brojosoba;
 public:
-    Sto konstruktor(string a,int b)
+    Sto(string a,int b)
     {
         postavljen=false;
         cist=true;
@@ -48,6 +48,7 @@ public:
             cout<<"sto je cist"<<endl;
         }
     }
+
 };
 /// rejting kuvara treba da zavisi od stola i jela (u planu)
 #endif // STO_H
