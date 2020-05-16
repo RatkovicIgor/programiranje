@@ -10,6 +10,12 @@ private:
     int temperatura;
     bool upaljen;
 public:
+    Sporet()
+    {
+        model="nepoznato";
+        temperatura=21;
+        upaljen=false;
+    }
     Sporet(string ime)
     {
         model=ime;
@@ -48,6 +54,9 @@ public:
         else
             cout<<"Sporet je vec ugasen"<<endl;
     }
+    virtual void ispisistanje()
+    {
+        cout<<model<<", "<<temperatura<<" stepens, "<<upaljen<<endl;
+    }
 };
-/// klasa jelo treva da zavisi od temperature Sporeta (u planu)
 #endif // Sporet_H

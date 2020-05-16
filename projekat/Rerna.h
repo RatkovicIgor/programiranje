@@ -73,6 +73,10 @@ public:
         else
             cout<<"rerna je prazna"<<endl;
     }
+    virtual void ispisistanje()
+    {
+        cout<<temperatura<<", "<<brojposuda<<" posuda, "<<vreme<<" mintua, "<<upaljen<<endl;
+    }
 };
 
 #endif // RERNA_H

@@ -14,7 +14,9 @@ public:
         naziv=ime;
         energetskavrednost=energ;
     }
-
+virtual void ispisipodatke()
+{
+    cout<<naziv<<", "<<energetskavrednost<<" kilokalorija"<<endl;
+}
 };
-
 #endif // SASTOJAK_H

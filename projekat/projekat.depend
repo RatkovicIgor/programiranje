@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1589152879 source:c:\users\ratkovic09\documents\github\programiranje\projekat\main.cpp
+1589674749 source:c:\users\ratkovic09\documents\github\programiranje\projekat\main.cpp
 	<iostream>
 	"Sporet.h"
 	"Firma.h"
@@ -12,34 +12,34 @@
 	"Obrok.h"
 	"Pice.h"
 
-1589024522 c:\users\ratkovic09\documents\github\programiranje\projekat\sporet.h
+1589671289 c:\users\ratkovic09\documents\github\programiranje\projekat\sporet.h
 	<iostream>
 
-1589152541 c:\users\ratkovic09\documents\github\programiranje\projekat\firma.h
+1589669637 c:\users\ratkovic09\documents\github\programiranje\projekat\firma.h
 	<iostream>
 
-1589024522 c:\users\ratkovic09\documents\github\programiranje\projekat\rerna.h
+1589671289 c:\users\ratkovic09\documents\github\programiranje\projekat\rerna.h
 	<iostream>
 
-1589026984 c:\users\ratkovic09\documents\github\programiranje\projekat\sto.h
+1589674456 c:\users\ratkovic09\documents\github\programiranje\projekat\sto.h
 	<iostream>
 
-1589024522 c:\users\ratkovic09\documents\github\programiranje\projekat\posuda.h
+1589671290 c:\users\ratkovic09\documents\github\programiranje\projekat\posuda.h
 	<iostream>
 
-1589151867 c:\users\ratkovic09\documents\github\programiranje\projekat\sastojak.h
+1589674456 c:\users\ratkovic09\documents\github\programiranje\projekat\sastojak.h
 	<iostream>
 
-1589151790 c:\users\ratkovic09\documents\github\programiranje\projekat\jelo.h
+1589674514 c:\users\ratkovic09\documents\github\programiranje\projekat\jelo.h
 	<iostream>
 
-1589152600 c:\users\ratkovic09\documents\github\programiranje\projekat\kuvar.h
+1589672859 c:\users\ratkovic09\documents\github\programiranje\projekat\kuvar.h
 	<iostream>
 
-1589024522 c:\users\ratkovic09\documents\github\programiranje\projekat\obrok.h
+1589674456 c:\users\ratkovic09\documents\github\programiranje\projekat\obrok.h
 	<iostream>
 
-1589153162 c:\users\ratkovic09\documents\github\programiranje\projekat\pice.h
+1589671290 c:\users\ratkovic09\documents\github\programiranje\projekat\pice.h
 	<iostream>
 	<fstream>
 

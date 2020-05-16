@@ -11,6 +11,12 @@ private:
     double procenatalkohola;
     bool domace;
 public:
+    Pice()
+    {
+        ime="nepoznato";
+        procenatalkohola=0;
+        domace=0;
+    }
     Pice(string naziv,double vol,bool d)
     {
         ime=naziv;
@@ -35,6 +41,10 @@ public:
         {
             cout<<ime<<", "<<vol<<" %, "<<d<<endl;
         }
+    }
+    virtual void ispisikarakteristike()
+    {
+        cout<<ime<<", "<<procenatalkohola<<" %, "<<domace<<endl;
     }
 };
 

@@ -9,10 +9,17 @@ private:
     string ime;
     ///ostatak iz jela i pica
 public:
+    Obrok()
+    {
+        ime="nepoznato";
+    }
     Obrok(string naziv)
     {
         ime=naziv;
     }
+    virtual void citajpodatke()
+    {
+        cout<<ime<<endl;
+    }
 };
-/// ukupan kvalitet zavisi od jela i piæa (string) (u planu)
 #endif // OBROK_H

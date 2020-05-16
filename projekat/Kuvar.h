@@ -11,13 +11,19 @@ private:
     string ime;
     static int brojredovnihgostiju;
 public:
-    Kuvar(string kuhinja,int rejting,string ime)
+    Kuvar()
     {
-        kuhinja=kuhinja;
-        rejting=rejting;
-        ime=ime;
+        kuhinja="nepoznato";
+        rejting=0;
+        ime="nepoznato";
     }
-    Kuvar povecajrejting(int rejting)
+    Kuvar(string kuh,int r,string i)
+    {
+        kuhinja=kuh;
+        rejting=r;
+        ime=i;
+    }
+    Kuvar povecajrejting()
     {
         if(rejting<10)
         {
@@ -28,7 +34,7 @@ public:
             cout<<"rejting je vec 10"<<endl;
         }
     }
-    Kuvar smanjirejting(int rejting)
+    Kuvar smanjirejting()
     {
         if(rejting>0)
         {
@@ -39,7 +45,7 @@ public:
             cout<<"rejting je vec 0"<<endl;
         }
     }
-    Kuvar ispisipodatke(string ime, string kuhinja,int rejting,int brojredovnihgostiju)
+    virtual void ispisipodatke()
     {
         cout<<ime<<", "<<kuhinja<<", "<<rejting<<"/10, "<<brojredovnihgostiju<<" redovnih gostiju."<<endl;
     }

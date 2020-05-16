@@ -10,6 +10,13 @@ private:
     string materijal;
     int brojosoba;
 public:
+    Sto()
+    {
+        postavljen=false;
+        cist=true;
+        materijal="nepoznato";
+        brojosoba=0;
+    }
     Sto(string a,int b)
     {
         postavljen=false;
@@ -48,7 +55,9 @@ public:
             cout<<"sto je cist"<<endl;
         }
     }
-
+    virtual void ispisipodatke()
+    {
+        cout<<postavljen<<", "<<cist<<", "<<materijal<<", "<<brojosoba<<" mesta"<<endl;
+    }
 };
-/// rejting kuvara treba da zavisi od stola i jela (u planu)
 #endif // STO_H

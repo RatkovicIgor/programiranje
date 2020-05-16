@@ -9,13 +9,19 @@ private:
     string ime,zemljaporekla;
     int kvalitet;///  1-10
 public:
+    Firma()
+    {
+        ime="nepoznato";
+        zemljaporekla="nepoznato";
+        kvalitet=0;
+    }
     Firma(string naziv, string poreklo, int ok)
     {
         ime=naziv;
         zemljaporekla=poreklo;
         kvalitet=ok;
     }
-    Firma ispisikarakteristike(string ime,string zemljaporekla,int kvalitet)
+    virtual void ispisikarakteristike()
     {
         cout<<ime<<", "<<zemljaporekla<<", "<<kvalitet<<"/10"<<endl;
     }

@@ -6,14 +6,24 @@ using namespace std;
 class Posuda
 {
 private:
-    string kvalitet;
+    int kvalitet;///1-10
     string naziv,upotreba;
 public:
-    Posuda(string kva,string ime,string upo)
+    Posuda()
+    {
+        kvalitet=0;
+        naziv="nepoznato";
+        upotreba="nepoznato";
+    }
+    Posuda(int kva,string ime,string upo)
     {
         kvalitet=kva;
         naziv=ime;
         upotreba=upo;
+    }
+    virtual void ispisikarakteristike()
+    {
+        cout<<naziv<<", "<<upotreba<<", "<<kvalitet<<endl;
     }
 };
 
