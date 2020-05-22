@@ -44,7 +44,6 @@ public:
             temperatura=21;
             vreme=0;
             cout<<"rerna je ugasena"<<endl;
-            ///------------------------------------------------------------------
         }
         else
             cout<<"rerna je vec ugasena"<<endl;

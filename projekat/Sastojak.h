@@ -14,9 +14,11 @@ public:
         naziv=ime;
         energetskavrednost=energ;
     }
-virtual void ispisipodatke()
-{
-    cout<<naziv<<", "<<energetskavrednost<<" kilokalorija"<<endl;
-}
+    int getEV()const{return energetskavrednost;}
+    virtual void ispisipodatke()
+    {
+        cout<<naziv<<", "<<energetskavrednost<<" kilokalorija"<<endl;
+    }
+    string getNaziv()const{return naziv;}
 };
 #endif // SASTOJAK_H

@@ -8,6 +8,7 @@ class Posuda
 private:
     int kvalitet;///1-10
     string naziv,upotreba;
+    bool cisto=false;
 public:
     Posuda()
     {
@@ -21,9 +22,13 @@ public:
         naziv=ime;
         upotreba=upo;
     }
+    Posuda ocisti()
+    {
+        cisto=true;
+    }
     virtual void ispisikarakteristike()
     {
-        cout<<naziv<<", "<<upotreba<<", "<<kvalitet<<endl;
+        cout<<naziv<<", "<<upotreba<<", "<<kvalitet<<cisto<<endl;
     }
 };
 
