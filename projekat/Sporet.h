@@ -58,5 +58,13 @@ public:
     {
         cout<<model<<", "<<temperatura<<" stepens, "<<upaljen<<endl;
     }
+    bool GetSt()
+    {
+        return upaljen;
+    }
+    int GetTemp()
+    {
+        return temperatura;
+    }
 };
 #endif // Sporet_H

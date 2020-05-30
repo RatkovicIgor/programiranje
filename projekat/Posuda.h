@@ -30,6 +30,14 @@ public:
     {
         cout<<naziv<<", "<<upotreba<<", "<<kvalitet<<cisto<<endl;
     }
+    bool GetCis()
+    {
+        return cisto;
+    }
+    void SetCis(bool a)
+    {
+        cisto=a;
+    }
 };
 
 #endif // POSUDA_H

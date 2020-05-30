@@ -76,6 +76,23 @@ public:
     {
         cout<<temperatura<<", "<<brojposuda<<" posuda, "<<vreme<<" mintua, "<<upaljen<<endl;
     }
+    bool GetSt()
+    {
+        return upaljen;
+    }
+    int GetTemp()
+    {
+        return temperatura;
+    }
+    int GetBp()
+    {
+        return brojposuda;
+    }
+    int GetVre()
+    {
+        return vreme;
+    }
+
 };
 
 #endif // RERNA_H

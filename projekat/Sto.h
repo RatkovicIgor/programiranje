@@ -59,5 +59,21 @@ public:
     {
         cout<<postavljen<<", "<<cist<<", "<<materijal<<", "<<brojosoba<<" mesta"<<endl;
     }
+    bool GetPo()
+    {
+        return postavljen;
+    }
+    bool GetCis()
+    {
+        return cist;
+    }
+    void SetCis(bool a)
+    {
+        cist=a;
+    }
+    void SetPo(bool a)
+    {
+        postavljen=a;
+    }
 };
 #endif // STO_H

@@ -25,6 +25,7 @@ int main()
     Pice p1("Sokodnarandze", 0, 1);
     Pice p2("Margarita", 25, 0);
     Pice p3("Limunada", 0, 1);
+    Posuda posuda1(9,"Tepsija","Pecenje");
     cout<<"rad sa firmom -> 1\nrad sa kuvarom -> 2\nrad sa jelom -> 3\nrad sa obrokom -> 4\nrad sa picem -> 5\nrad sa posudom -> 6\nrad sa rernom -> 7\ndodatne opcije -> 8\nrad sa sporetom -> 9\nrad sa stolom -> 10\npomoc -> 11\nizlaz -> 12\n-->";
     while(1)
     {
@@ -77,10 +78,6 @@ int main()
             {
                 kuvar1.smanjirejting();
             }
-            else
-            {
-                cout<<"greska!"<<endl;
-            }
             break;
         }
         case 3:
@@ -102,18 +99,14 @@ int main()
             }
             case 3:
             {
-                string a;
-                cout<<"koji sastojak bbi ste dodali (npr. sastojak1,sastojak2...) -->";
-                cin>>a;
-                gulas.dodajSastojak(a);
+                gulas.dodajSastojak(sastojak4);
+                cout<<"dodali ste beli luk"<<endl;
                 break;
             }
             case 4:
             {
-                string a;
-                cout<<"koji sastojak bbi ste izbacili (npr. sastojak1,sastojak2...) -->";
-                cin>>a;
-                gulas.izbaciSastojak(a);
+                cout<<"izbacili ste beli luk"<<endl;
+                gulas.izbaciSastojak(sastojak4);
                 break;
             }
             case 5:
@@ -143,13 +136,10 @@ int main()
                 p3.ispisikarakteristike();
                 break;
             }
-            case 2;
+            case 2:
             {
-                cout<<"unesi ime, procenat alkohola i poreklo (domace: 1/0):";
-                string e;
-                int f,g;
-                cin>>e,f,g;
-                Pice p4(e,f,g);
+                cout<<"dodaj pice"<<endl;
+                Pice p4("Voda",0,0);
                 break;
             }
             case 3:///(!)
@@ -245,13 +235,13 @@ int main()
             }
             if(d==1)
             {
-                if(rerna1.upaljen==true && sporet1.upaljen==true && rerna1.temperatura>=180 && rerna1.brojposuda>=1 && rerna1.vreme>=30 && sporet1.temperatura>=100 && sto1.cist==true && sto1.postavljen==true && posuda1.cisto==true)
+                if(rerna1.GetSt()==true && sporet1.GetSt()==true && rerna1.GetTemp()>=180 && rerna1.GetBp()>=1 && rerna1.GetVre()>=30 && sporet1.GetTemp()>=100 && sto1.GetCis()==true && sto1.GetPo()==true && posuda1.GetCis()==true)
                 {
                     cout<<"rejting vam se povecao! :)"<<endl;
                     kuvar1.povecajrejting();
-                    sto1.cist=false;
-                    sto1.postavljen=false;
-                    posuda1.cisto=false;
+                    sto1.SetCis(false);
+                    sto1.SetPo(false);
+                    posuda1.SetCis(false);
                     rerna1.ugasi();
                     sporet1.ugasi();
                 }
@@ -259,9 +249,9 @@ int main()
                 {
                     cout<<"rejting vam se smanjio! :("<<endl;
                     kuvar1.smanjirejting();
-                    sto1.cist=false;
-                    sto1.postavljen=false;
-                    posuda1.cisto=false;
+                    sto1.SetCis(false);
+                    sto1.SetPo(false);
+                    posuda1.SetCis(false);
                     rerna1.ugasi();
                     sporet1.ugasi();
                 }
